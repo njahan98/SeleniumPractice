@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TestBase {
 
-    private static WebDriver driver;
+    public static WebDriver driver;
 
     public static void navigateBack(){driver.navigate().back();}
 
