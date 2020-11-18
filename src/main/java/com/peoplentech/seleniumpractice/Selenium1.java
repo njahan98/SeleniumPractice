@@ -15,8 +15,6 @@ public class Selenium1 {
         //wait 5 sec then closes chrome
         Thread.sleep(5000);
         driver.close();
-
-
     }
 
 
